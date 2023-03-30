@@ -1,0 +1,623 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+.active{
+    height: 00vh;
+    width: 100%;
+    padding: 0px px;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    justify-content: space-between;
+    background: hsla(0, 0%, 100%, .98);
+    transition: b0x-shadow .25s ease 0s;
+    box-shadow: 0px 0px 0px 0px gray;
+    
+}
+.logo{
+    line-height: 3rem;
+    float: left;
+    padding-left: 10%;
+}
+nav ul{
+    float: right;
+    margin-right: 10%;
+    position: relative;
+}
+nav ul li{
+    float: left;
+    list-style:none;
+    padding: 22px 15px;
+}
+nav ul li a{
+    color: #a5a2a2;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none;
+}
+.hover:hover{
+    color: #00b39b;
+    transition: .6s;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: white;
+    background-attachment: scroll;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-size: auto;
+    box-shadow: 0 5px 10px 0 #858484;
+    z-index: 1;
+    border-radius: 0px 0px 4px 4px;
+    padding: 15px 0px;
+    width: 250px;
+}
+
+.dropdown li{
+    width: 250px;
+
+}
+.dropdown :hover{
+    background-color: rgb(248, 244, 244);
+    color: #00b39b;
+}
+nav .bars li:hover .dropdown {
+    display: block;
+}
+.content{
+    padding: 5% 10% 0% 10%;
+}
+.pics{
+    display: block;
+    margin: 0 auto;
+}
+.picture{
+    padding-bottom: 5%;
+}
+.intro{
+    display: block;
+    font-weight: 200;
+    font-size: 40px;
+    text-align: center;
+    color: #00b39b;
+    letter-spacing: 1px;
+}
+.heading{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+    display: flex;
+    padding-top: 5%;
+    padding:  3% 3%;
+}
+.first{
+    padding: 1%;
+}
+.second{
+    padding: 1%;
+}
+.branch1{
+    padding: 0px 10px 10px 0px ;
+    font-size: 28px;
+    font-weight:lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    height: 370px;
+    width: 330px;
+    padding: 30px 30px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    background-color: #0fbda6;
+    color: white;
+    text-shadow: #0fbda6;
+    transition: .25s ease .25s;
+}
+.card1b{
+    font-weight: normal;
+    font-size: 30px;
+}
+.card2{
+    height: 370px;
+    width: 330px;
+    padding: 30px 30px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align:;
+    background-color: cornflowerblue;
+    color: white;
+}
+.card2b{
+    font-weight: normal;
+    font-size: 30px;
+}
+.card3{
+    height: 370px;
+    width: 330px;
+    padding: 30px 30px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: ;
+    background-color: rgb(1, 1, 24);
+    color: white;
+
+}
+.card3b{
+    font-weight: normal;
+    font-size: 30px;
+}
+.button{
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+}
+.div3{
+    height: 40vh;
+    width: 100%;
+    position: fixed;
+}
+.div4{
+    height:100vh; 
+    width:100%;
+    padding: 0px px; 
+
+}
+.div4container{
+    padding: 2% 10% 0% 10%;
+    background-color: #daf8f4;
+    display: flex;
+    justify-content: center;
+}
+.biglogo{
+    padding-top: 5%;
+}
+.div4a{
+    font-size: 40px;
+    font-weight: lighter;
+    color: #00b39b;
+    padding: 3% 0% 0% 0%;
+    width: 80%;
+    height: 100vh;
+    margin-right: 0%;
+    display
+}
+.div4ai{
+    width: 80%;
+}
+.div4aii{
+    padding: 20px 0px 2px 5px;
+    font-size: 18px;
+    color: #8f8989;
+    font-weight: 400;
+}
+.div4b{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 1rem;
+    height: 200; 
+
+}
+.div4bi{
+    height: 270px;
+    width: 80%;
+    background-color: white;
+    margin-top: 14%;
+    margin-left: 30%;
+    border: 10px;
+    border-radius: 3%;
+}
+
+.wrap{
+    padding-top: 4%;
+    display: block;
+    margin: 0 auto;
+}
+h4{
+    font-size: 30px;
+    font-weight: lighter;
+    color: #00b39b;
+    padding: 0% 3%;
+    text-align: center;
+}
+h6{
+    font-size: 15px;
+    color: #8f8989;
+    font-weight: 400;
+    padding: 0% 2%;
+    text-align: center;
+}
+.div4c{
+    height: 270px;
+    width: 80%;
+    background-color: white;
+    padding: 4% 0%;
+    border: px;
+    border-radius: 3%;
+    margin-left: 35px;
+}
+.div4d{
+    height: 270px;
+    width: 80%;
+    background-color: white;
+    margin-left: 30%;
+    
+    border: px;
+    border-radius: 3%;
+}
+.div4e{
+    height: 270px;
+    width: 80%;
+    background-color: white;
+    margin-left: 35px;
+    border-radius: 3%;
+}
+.div5{
+    width: 100%;
+    padding-top: 5%;
+    display: inline-block;
+
+}
+.div5a{
+    align-items: center;
+    width: 100%;
+    padding-right: 10%;
+    padding-left: 16%;
+}
+.div5ai{
+    padding: 3% 18% 0% 18%;
+    letter-spacing: 1px;
+}
+.div5aii{
+    padding: 2% 18% 4% 18%;
+    letter-spacing: 1px;
+    color: #8f8989;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.div5b{
+    width: 100%;
+    padding: 2% 10% 0% 16%;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+}
+.div5last{
+    height: 250px;
+    width: 310px;
+    border-radius: 3%;
+
+}
+.lead{
+    border-radius: 3%;
+
+}
+.tag{
+    padding: 5% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.tag2{
+    float: left;
+
+}
+.tag h5{
+    color: #a5a2a2;
+    font-size: 20px;
+    margin-left: 2%;
+    font-weight: 500;
+}
+.tag2button{ 
+    background-color: blue;
+    font-size: 14px;
+    margin-right: 5%;
+    border-radius: 6px;
+
+}
+.abutton{
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px;
+    font-size: 10px;
+    font-weight: 800;
+
+}
+.div6lead{
+    height: 20vh;
+    width:100%;
+    padding: 0% 20%;
+    text-align: center;
+}
+.div6{
+    max-height: inherit;
+    height: 20vh;
+}
+.firstlead{
+    color: black;
+    font-size: 35px;
+}
+.seclead{
+    padding-top: 3%;
+     
+}
+.bbutton{
+    position: relative;
+    border: 0;
+    padding: 1% 5%;
+    border-radius: 6px;
+    background: blue;
+    color: white;
+    line-height: 3.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.footer{
+    height: 20vh;
+    width: 100%;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px#a5a2a2;
+}
+.footerlead{
+    max-height: inherit;
+    height: 20vh;
+    padding: 2% 10%;
+}
+.footer1{
+    color: #a5a2a2;
+    font-size: 13px;
+    padding: 1% 6% 0% 10%;
+}
+.footer2{
+    color: #a5a2a2;
+    font-size: 13px;
+    padding: 0% 6% 0% 6%;
+}
+.footer3{
+    padding-left: 40%;
+    color: #a5a2a2;
+}
+.career{
+    width: 100%;
+    height: 95vh;
+    background: url(./images/bg-top.jpg);
+    background-size: no-repeat 50% 50%/cover;
+}
+.cdiv1{
+    padding: 2%;
+    height: 65vh;
+    width: 32%;
+    margin: 9%;
+    background: white;
+}
+.cdiv1a{
+    font-size: 45px;
+}
+.cdiv1b{
+    font-size: 18px;
+    color: #8f8989;
+    padding: 5% 2%;
+    font-weight: 450;
+}
+.cdiv1c{
+    font-size: 18px;
+    color: #8f8989;
+    padding: 3%;
+}
+.cbutton{
+    padding: 3% 8%;
+    border: 0;
+    text-decoration: none;
+    border-radius: 6px;
+    background: rgb(67, 143, 206);
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+
+}
+.cdiv2{
+    width: 100%;
+    padding: 0% 10% 0% 10%;
+    display: inline-block;
+}
+.cdiv2a{
+    padding: 2% 20% ;
+}
+.cdiv2ai{
+    font-size: 30px;
+    font-weight: 300;
+    color: #00b39b;
+    padding-left: 22%;
+}
+.cdiv2b{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 2rem;
+    padding-left: 6%;
+    padding: 1% 0% 15% 6%;
+}
+.cdiv2bi{
+    height: 100%;
+    border: 1px solid rgba(223, 220, 220, 0.03);
+    border-radius: 2rem;
+    box-shadow: #a5a2a2 0 5px 10px 0 transparent;
+    transition: sh .2s ease 0s;
+    background: white;
+}
+.cdiv2bii h3{
+    color: rgb(82, 82, 82);
+    font-weight: 400;
+    font-size: 25px;
+    padding: 5% 20%;
+}
+.cdiv2biii{
+    padding-left: 15%;
+    width: 60%;
+    
+}
+.cdiv2biv{
+    padding: 3% 3%;
+    border: 0;
+    text-decoration: none;
+    border-radius: 6px;
+    background: rgb(67, 143, 206);
+    width: 46%;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.buttoniv{
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    text-decoration: none;
+
+}
+.cdiv3{
+    width: 100%;
+    padding: 3% 10%;
+    background: rgb(250, 247, 247);
+}
+.cdiv3ai{
+    padding: 2%;
+    font-size: 34px;
+    color: #0fbda6;
+    font-weight: 200;
+    padding-left: 5%;
+}
+.cdiv3ai p{
+    padding-left: 30%;
+    
+}
+.cdiv3b{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    padding: 3%;
+
+}
+.cdiv3bii{
+    background: url(/images/video-en\ \(1\).png);
+    width: 136%;
+    padding-right: %;
+    height: 33vh;
+}
+.cdib3c{
+    padding-left: 50%;
+}
+.cdiv3ci{
+    padding-left: 38%;
+    width: 130%;
+    height: 45%;
+}
+.cdiv3cii{
+    padding-left: 32%;
+
+}
+.cdiv3ciii{
+    padding: 4% 5%;
+    width: 250%;
+    height: 20vh;
+
+}
+.cdiv3bimg{
+    width: 100%;
+}
+.cdiv3cv{
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px 1px#e5e9e8;
+    height: 35vh;
+    padding: 4%;
+    padding-right: 10%;
+    width: 50%;
+}
+.cdiv3cvp{
+    font-size: 20px;
+    padding-bottom: 10%;
+}
+.cdiv3cvi{
+    height: 60%;
+    width: 22%;
+    padding-right: 80%;
+    padding: 2%;
+    text-decoration: none;
+}
+.cdiv3cp2 {
+    text-decoration: none;
+    box-sizing: border-box;
+    background: #e2dfdf;
+    padding-left: 10%;
+    height: 6vh;
+    justify-content: space-between;
+    border-radius: 3px;
+
+
+
+}
+.cdiv4{
+    height: 105vh;
+    width: 100%;
+}
+.cdiv4lead{
+    padding: 0% 10%;
+}
+.cdiv4leada{
+    padding: 0% 26% 2% 28%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    font-weight: 200;
+    color: #0fbda6;
+}
+.cdiv4grid{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: rem;
+    padding: 0% 13%;
+    width: 110%;
+}
+.cdiv4b{
+    font-weight: 600;
+    padding: 2%;
+}
+.cdiv4bi{
+    color: #8f8989;
+    font-size: 15px;
+    height: 19vh;
+    width: 100%;
+    padding: 3%;
+}
+.cdiv4bip{
+    width: 95%;
+    padding: 2%;
+
+}
+.cdiv4c{
+    background-color: #ffffff;
+    outline-color: white;
+    outline: ;
+    box-sizing: border-box;
+    border: 5%;
+    box-shadow: 5% 5% 5% 5%rgb(196, 189, 189);
+    border-radius: 2% 4%;
+    background-origin: padding-box;
+    background-clip: border-box;
+
+}
+.cdiv4d{
+    background: #fcfafa;
+}
